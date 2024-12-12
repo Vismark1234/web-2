@@ -17,19 +17,19 @@ const Navbar1 = () => {
       <div className={`overlay ${menuOpen ? "active" : ""}`} onClick={toggleMenu}>
         <ul className="navbar-menu" onClick={(e) => e.stopPropagation()}>
           <li>
-            <Link to="/web-2/">Inicio</Link>
+            <Link to="/">Inicio</Link>
           </li>
           <li>
-            <Link to="/web-2/menu">Menu</Link>
+            <Link to="/menu">Menu</Link>
           </li>
           <li>
-            <Link to="/web-2/reservas">Reservas</Link>
+            <Link to="/reservas">Reservas</Link>
           </li>
           <li>
-            <Link to="/web-2/ubicacion">Ubicacion</Link>
+            <Link to="/ubicacion">Ubicacion</Link>
           </li>
           <li className="dropdown">
-            <Link to="/web-2/galeria">Galeria</Link>
+            <Link to="/galeria">Galeria</Link>
             <ul className="dropdown-menu">
               <li><Link to="#subopcion1">Subopción 1</Link></li>
               <li><Link to="#subopcion2">Subopción 2</Link></li>
@@ -37,7 +37,7 @@ const Navbar1 = () => {
             </ul>
           </li>
           <li>
-            <Link to="/web-2/nosotros">Nosotros</Link>
+            <Link to="/nosotros">Nosotros</Link>
           </li>
         </ul>
       </div>
