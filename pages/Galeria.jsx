@@ -79,8 +79,8 @@ export default function Galeria(){
         <div className="contenedor-galeria">
           
           <div className="titulos">
-              <h1>Galería de Imágenes</h1>
-                _____________________________________________________________
+              <h1 className="tex">Galería de Imágenes</h1>
+               
             </div>
           <GaleriaF imagenes={imagenes} />
         </div>
