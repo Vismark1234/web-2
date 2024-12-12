@@ -14,8 +14,8 @@ export default function Menu() {
             </div>
 
             <div className="titulos">
-                <p>Platos fuertes</p>
-                _____________________________________________________________
+                <p className="tex">Platos fuertes</p>
+                
             </div>
             
             <div className="carta-menu">
@@ -29,8 +29,8 @@ export default function Menu() {
 
 
             <div className="titulos">
-                <p>Caldos</p>
-                _____________________________________________________________
+                <p className="tex">Caldos</p>
+                
             </div>
             <div className="carta-menu">
                 
@@ -43,8 +43,8 @@ export default function Menu() {
 
             
             <div className="titulos">
-                <p>Entradas</p>
-                _____________________________________________________________
+                <p className="tex">Entradas</p>
+        
             </div>
             <div className="carta-menu">
                 
@@ -57,8 +57,8 @@ export default function Menu() {
             
 
             <div className="titulos">
-                <p>Postres</p>
-                _____________________________________________________________
+                <p className="tex">Postres</p>
+                
             </div>
             <div className="carta-menu">
                 
