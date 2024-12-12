@@ -14,14 +14,14 @@ export default function Ubicacion() {
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239.090152156358!2d-68.1294029890261!3d-16.50374674499526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f20651137a89f%3A0x5c936e17712d21a0!2sFederico%20Zuazo%201976%2C%20La%20Paz!5e0!3m2!1ses-419!2sbo!4v1733758201779!5m2!1ses-419!2sbo" ></iframe>
             </div>
             <div className="titulos-pag4">
-              <h1>La Paz</h1>
-                _____________________________________________________________
+              <h1 className="tex >La Paz</h1>
+              
             </div>
                 <ListaCartas></ListaCartas>
 
             <div className="titulos-pag4">
-              <h1>Cochabamba</h1>
-                _____________________________________________________________
+              <h1 className="tex>Cochabamba</h1>
+                
             </div>
                 <ListaCartas></ListaCartas>
         </div>
