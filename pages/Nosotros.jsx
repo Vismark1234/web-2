@@ -36,15 +36,15 @@ Hoy, con el mismo espíritu que lo vio nacer, Sabores Bolivianos te abre sus pue
                 />
             </div>
             <div className="titulos">
-                <p>VISION</p>
-                _____________________________________________________________
+                <p className="tex">VISION</p>
+               
                 <p>
                 Ser un exponente de la gastronomía a nivel mundial.
-                </p>
+                </p className="tex">
             </div>
             <div className="titulos">
-                <p>MISION</p>
-                _____________________________________________________________
+                <p className="tex">MISION</p>
+                
                 <p className="cont-tit">
                 Satisfacer las necesidades gastronómicas de nuestros clientes, ofreciendo alimentos y servicios con la más alta calidad, donde superen las expectativas y además de ser un espacio de trabajo que permita el desarrollo de sus colaboradores y su constante aprendizaje.
                 </p>
