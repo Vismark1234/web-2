@@ -18,15 +18,15 @@ createRoot(document.getElementById('root')).render(
             
     <Principal/>
                 <Routes>
-                <Route path="menu" element={<Menu/>} />
+                <Route path="/menu" element={<Menu/>} />
 
-                <Route path="galeria" element={<Galeria/>} />
+                <Route path="/galeria" element={<Galeria/>} />
 
-                <Route path="ubicacion" element={<Ubicacion/>} />
+                <Route path="/ubicacion" element={<Ubicacion/>} />
 
-                <Route path="nosotros" element={<Nosotros/>} />
+                <Route path="/nosotros" element={<Nosotros/>} />
 
-                <Route path="reservas" element={<Reservas/>} />
+                <Route path="/reservas" element={<Reservas/>} />
             </Routes>
 
             <Footer></Footer>
