@@ -12,25 +12,16 @@ import Nosotros from '../pages/Nosotros';
 import Reservas from '../pages/Reservas';
 
 createRoot(document.getElementById('root')).render(
-<BrowserRouter>
-
-    <Header1></Header1>
-            
-    <Principal/>
-                <Routes>
-                <Route path="/menu" element={<Menu/>} />
-
-                <Route path="/galeria" element={<Galeria/>} />
-
-                <Route path="/ubicacion" element={<Ubicacion/>} />
-
-                <Route path="/nosotros" element={<Nosotros/>} />
-
-                <Route path="/reservas" element={<Reservas/>} />
-            </Routes>
-
-            <Footer></Footer>
-  
+    <BrowserRouter basename="/web-2">
+      <Header1 />
+      <Routes>
+        <Route path="/" element={<Principal />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/galeria" element={<Galeria />} />
+        <Route path="/ubicacion" element={<Ubicacion />} />
+        <Route path="/nosotros" element={<Nosotros />} />
+        <Route path="/reservas" element={<Reservas />} />
+      </Routes>
+      <Footer />
     </BrowserRouter>
-
-)
+  );
