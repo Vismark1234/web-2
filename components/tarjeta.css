@@ -1,0 +1,52 @@
+.contenedorTarjeta {
+    background-color: black;
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: 1.7fr 1fr;
+    height: 100%;
+    box-sizing: border-box;
+    gap: 20px; /* Añade espacio entre columnas */
+
+}
+
+.desripcionTarjeta {
+    height: 100%;
+    padding: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido verticalmente */
+    box-sizing: border-box;
+}
+
+.imagenTarjeta {
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centra la imagen verticalmente */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.imgTarjeta {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* Media queries para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    .contenedorTarjeta {
+        grid-template-columns: 1fr; /* una sola columna */
+        height: auto; /*  altura al contenido */
+    }
+
+    .desripcionTarjeta, 
+    .imagenTarjeta {
+        padding: 20px; /*  padding en pantallas pequeñas */
+    }
+
+    .imgTarjeta {
+        max-height: 300px; /*altura máxima para imágenes en dispositivos móviles */
+    }
+}

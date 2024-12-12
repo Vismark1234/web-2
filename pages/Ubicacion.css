@@ -1,0 +1,65 @@
+.contenedor-pagina4{
+    background-color: #333; /* Fondo oscuro */
+}
+.imagen-princ  {
+position: relative;
+}
+.imagen-princ  {
+    background-color: #181818;
+    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    height: 100%; /* La imagen ocupa todo el alto del contenedor */
+    max-height: 800px; 
+    object-fit: cover; /* La imagen se recorta para llenar el contenedor */
+    object-position: center; /* Centra la imagen dentro del contenedor */
+    display: block; /* Elimina espacios adicionales si la imagen es un inline-block */
+  }
+.img-principal {
+    padding: 0 20px;
+    width: 100%;  /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: auto;  /* Mantiene la proporción de la imagen */
+    max-height: 800px;
+
+    object-fit: cover; /* La imagen se recorta para llenar el contenedor */
+    object-position: center; /* Centra la imagen dentro del contenedor */
+    display: block; /* Elimina espacios adicionales si la imagen es un inline-block */
+
+}
+.texto-sobrepuesto {
+    padding: 40px 350px;
+    background-color: rgba(250, 235, 215, 0.6);
+    position: absolute; /* Permite colocar el texto sobre la imagen */
+    top: 50%; /* Posiciona el texto verticalmente en el centro */
+    left: 50%; /* Posiciona el texto horizontalmente en el centro */
+    transform: translate(-50%, -50%); /* Ajusta para centrar perfectamente el texto */
+    color: white; /* Color del texto */
+    font-size: 2rem; /* Tamaño del texto */
+    font-weight: bold; /* Hace el texto más llamativo */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para mejor legibilidad */
+    z-index: 1; /* Coloca el texto por encima de la imagen */
+    text-align: center; /* Centra el texto */
+  }
+.mapa{
+    width: 100%;
+    height: 600px;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.mapa iframe {
+    width: 100%; /* El iframe ocupa todo el ancho */
+    height: 100%; /* Ajusta la altura al contenedor */
+    border: none; /* Elimina bordes adicionales */
+}
+
+.titulos-pag4{
+    text-align: center;
+    padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #333; /* Fondo oscuro */
+    justify-content: center;
+    color: white; /* Color del texto */
+    font-size: 2rem; /* Tamaño del texto */
+    font-weight: bold; /* Hace el texto más llamativo */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }

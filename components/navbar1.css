@@ -1,0 +1,113 @@
+/* Navbar container */
+.navbar {
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+/* Navbar items */
+.navbar-menu {
+  font-weight: bold;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content:flex-end;
+  flex-wrap: wrap;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  
+  
+}
+
+.navbar-menu li {
+  position: relative;
+}
+
+.navbar-menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  width: 100%;
+  
+}
+
+.navbar-menu a:hover {
+  background-color: #555;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #444;
+  display: none;
+  flex-direction: column;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu a {
+  padding: 10px 20px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: flex;
+}
+
+/* Responsive design */
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 1060px) {
+  /* Ventana emergente (overlay) */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none; /* Oculto por defecto */
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Asegura que esté encima de todo */
+  }
+
+  .overlay.active {
+    display: flex; /* Muestra la ventana emergente cuando está activa */
+  }
+
+  .navbar-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    box-sizing: border-box;
+  }
+
+  .navbar-menu li {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .menu-toggle {
+    display: block;
+    margin-left: auto; /* Empuja el icono de la hamburguesa a la derecha */
+  }
+
+  /* Eliminar el comportamiento de menú desplegable al estar en vista móvil */
+  .dropdown-menu {
+    position: static;
+    box-shadow: none;
+  }
+}

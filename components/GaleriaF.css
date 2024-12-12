@@ -1,0 +1,16 @@
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /* Espacio entre las imágenes */
+    padding: 10px; /* Separación del contenido respecto al contenedor */
+  }
+  
+  .galeria img {
+    width: 100%; /* Todas las imágenes tienen el mismo ancho */
+    max-height: 550px;
+    object-fit: cover; /* Ajusta la imagen si es necesario */
+    border-radius: 5px; /* Opcional: Esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: Sombra */
+
+  }
+  

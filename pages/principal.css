@@ -1,0 +1,22 @@
+.contenedor11 {
+    position: relative; /* Asegura que los elementos hijos pueden posicionarse sobre este contenedor */
+    background-color: #333; /* Fondo oscuro */
+}
+  
+  /* Estilo para la imagen */
+.contenedor11 img {
+    width: 100%;  /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: auto;  /* Mantiene la proporción de la imagen */
+}
+
+.carrusel{
+    padding-top: 5px;
+}
+/* ajustar la imagen dentro del carrusel */
+.imagen-princ  {
+    position: relative;
+}
+.carrusel .carousel-item img {
+    width: 100%; /* Asegura que las imágenes en el carrusel ocupen el 100% del ancho */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+}

@@ -1,0 +1,98 @@
+/* Footer General */
+.footer {  background-color: #333; /* Fondo oscuro */
+
+  color: white; /* Texto blanco */
+  padding: 20px; /* Espaciado general */
+  text-align: center; /* Centra el texto */
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-title {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Estilos para ubicaciones */
+.locations {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las ubicaciones se ajusten en dispositivos pequeños */
+  justify-content: space-around; /* Espaciado uniforme */
+  margin-bottom: 20px;
+}
+
+.location {
+  width: 30%; /* Cada ubicación ocupa un tercio del ancho en pantallas grandes */
+  margin-bottom: 20px;
+  text-align: left; /* Texto alineado a la izquierda */
+}
+
+.location a {
+  color: #00bcd4; /* Color para los enlaces */
+  text-decoration: none;
+}
+
+.location a:hover {
+  text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+/* Links adicionales */
+.footer-links {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #ccc; /* Color más claro al pasar el ratón */
+}
+
+/* Texto final */
+.footer-credit {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 768px) {
+  .locations {
+    flex-direction: column; /* Cambia a columna */
+    align-items: center; /* Centra el contenido */
+  }
+
+  .location {
+    width: 100%; /* Cada ubicación ocupa todo el ancho */
+    text-align: center; /* Texto centrado */
+  }
+
+  .footer-links {
+    flex-direction: column; /* Enlaces en una sola columna */
+    gap: 10px;
+  }
+
+  .footer-title {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-title {
+    font-size: 1.2rem;
+  }
+
+  .footer-credit {
+    font-size: 0.8rem;
+  }
+}

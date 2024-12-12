@@ -1,0 +1,16 @@
+.contenedor-galeria{
+    padding-top: 90px;
+    align-items: center;
+    text-align: center;
+}
+.titulos{
+    text-align: center;
+    padding-top: 10px;
+  padding-bottom: 10px;
+    background-color:rgba(24, 26, 26, 0.918);
+    justify-content: center;
+    color: white; /* Color del texto */
+    font-size: 2rem; /* Tamaño del texto */
+    font-weight: bold; /* Hace el texto más llamativo */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
